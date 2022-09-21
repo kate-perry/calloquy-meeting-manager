@@ -15,6 +15,7 @@ function App() {
       <div className="app">
         <Typography variant="h2">Meeting Manager</Typography>
         <CreateMeetingForm />
+        <Typography variant="h2">Current Schedule (in progress)</Typography>
         <MeetingsList />
       </div>
     </ThemeProvider>
