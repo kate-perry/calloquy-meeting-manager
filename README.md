@@ -14,8 +14,8 @@ To start the client, open a terminal in this directory and run `npm install` the
 
 - [X] Select Case (getCases)
 - [X] Select Meeting Type (getTypes)
-- [ ] Select (multiple) Participants (getParticipants, display as "LastName, FirstName")
-- [ ] Select a time
+- [X] Select (multiple) Participants (getParticipants, display as "LastName, FirstName")
+- [X] Select a time
 - [ ] Save Meeting (postMeeting)
 - [ ] Validation
 
@@ -30,3 +30,5 @@ To start the client, open a terminal in this directory and run `npm install` the
 - [ ] Sign in to view specific calendar
 - [ ] View conflicts when booking, suggested times
 - [ ] Meeting durations
+= [ ] Time Localization
+- [ ] Automatically send invite to email
