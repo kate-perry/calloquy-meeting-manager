@@ -11,13 +11,16 @@ body {
     margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        background-color: $primary-color;
-    }
+html {
+    background-color: $white-color;
 }
 
 .app {
     text-align: center;
     margin: 0;
+    padding: 45px;
+}
+
+.form > div {
+    margin-top: 30px;
 }

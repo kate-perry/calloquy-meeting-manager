@@ -1,6 +1,6 @@
 # Meetings Manager
 
-A single-page webapp to manage meetings and participants for cases. This front-end was built on top of a template I made from create-react-app (see repo [here](https://github.com/kate-perry/cra-template)), so it's set up for a few extra features that may not be fully implemented here (i.e. light/dark mode and window size responsiveness).
+A single-page webapp to manage meetings and participants for cases. This front-end was built on top of a template I made from create-react-app (see repo [here](https://github.com/kate-perry/cra-template)).
 
 ## How To Run
 
@@ -12,21 +12,21 @@ To start the client, open a terminal in this directory and run `npm install` the
 
 ### Add A Meeting
 
-[ ] Select Case (getCases)
-[ ] Select Meeting Type (getTypes)
-[ ] Select (multiple) Participants (getParticipants)
-    - View as LastName, FirstName
-[ ] Select a time
-[ ] Save Meeting (postMeeting)
+- [X] Select Case (getCases)
+- [X] Select Meeting Type (getTypes)
+- [ ] Select (multiple) Participants (getParticipants, display as "LastName, FirstName")
+- [ ] Select a time
+- [ ] Save Meeting (postMeeting)
+- [ ] Validation
 
 ### View Meetings
 
-[ ] View all meetings (list view)
-[ ] Sort meetings by time
-[ ] Filter meetings by participant
+- [x] View all meetings (list view)
+- [ ] Sort meetings by time
+- [ ] Filter meetings by participant
 
 ## Future
 
-[ ] Sign in to view specific calendar
-[ ] View conflicts when booking, suggested times
-[ ] Meeting durations
+- [ ] Sign in to view specific calendar
+- [ ] View conflicts when booking, suggested times
+- [ ] Meeting durations
