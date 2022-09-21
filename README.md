@@ -1,53 +1,32 @@
-# template-app
-A super-simple boilerplate on top of create-react-app with the following lite-functional support and libraries:
-- Window size responsiveness
-- Light/dark mode
-- MUI
-- Sass
+# Meetings Manager
 
-## Getting Started with Create React App
+A single-page webapp to manage meetings and participants for cases. This front-end was built on top of a template I made from create-react-app (see repo [here](https://github.com/kate-perry/cra-template)), so it's set up for a few extra features that may not be fully implemented here (i.e. light/dark mode and window size responsiveness).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How To Run
 
-### Available Scripts
+To connect to the API, follow the instructions in [this repo](https://github.com/calloquy-dusty-fowler/code_assessment).
 
-In the project directory, you can run:
+To start the client, open a terminal in this directory and run `npm install` then `npm start`. Navigate to `localhost:3000` to interact.
 
-#### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Add A Meeting
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[ ] Select Case (getCases)
+[ ] Select Meeting Type (getTypes)
+[ ] Select (multiple) Participants (getParticipants)
+    - View as LastName, FirstName
+[ ] Select a time
+[ ] Save Meeting (postMeeting)
 
-#### `npm test`
+### View Meetings
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[ ] View all meetings (list view)
+[ ] Sort meetings by time
+[ ] Filter meetings by participant
 
-#### `npm run build`
+## Future
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-### Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[ ] Sign in to view specific calendar
+[ ] View conflicts when booking, suggested times
+[ ] Meeting durations

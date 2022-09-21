@@ -11,6 +11,7 @@ export const WindowSizeContext = createContext(getWindowSize());
 
 function App() {
   const [windowSize, setWindowSize] = useState(getWindowSize());
+
   useEffect(() => {
     function handleWindowResize() {
       setWindowSize(getWindowSize())
@@ -20,6 +21,12 @@ function App() {
       window.removeEventListener('resize', handleWindowResize);
     };
   }, []);
+
+  useEffect(() => {
+    fetch("http://localhost:8000/api/participants").then(res => res.json()).then((result) => {
+      console.log(result)
+    })
+  })
 
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const theme = React.useMemo(() => responsiveFontSizes(createTheme(getDesignTokens(prefersDarkMode ? 'dark' : 'light'))), [prefersDarkMode]);
