@@ -25,3 +25,10 @@ export type Meeting = {
     participants: string[],
     scheduled: Date,
 }
+
+export type MeetingRequest = {
+    case_id: number,
+    type_id: number,
+    participants: string[],
+    scheduled: Date,
+}

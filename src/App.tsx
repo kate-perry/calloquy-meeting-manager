@@ -13,7 +13,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="app">
-        <Typography variant="h1">Meeting Manager</Typography>
+        <Typography variant="h2">Meeting Manager</Typography>
         <CreateMeetingForm />
         <MeetingsList />
       </div>

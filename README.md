@@ -16,12 +16,12 @@ To start the client, open a terminal in this directory and run `npm install` the
 - [X] Select Meeting Type (getTypes)
 - [X] Select (multiple) Participants (getParticipants, display as "LastName, FirstName")
 - [X] Select a time
-- [ ] Save Meeting (postMeeting)
-- [ ] Validation
+- [-] Save Meeting (postMeeting)
+- [-] Validation
 
 ### View Meetings
 
-- [x] View all meetings (list view)
+- [-] View all meetings (commented out since it's still in progress)
 - [ ] Sort meetings by time
 - [ ] Filter meetings by participant
 

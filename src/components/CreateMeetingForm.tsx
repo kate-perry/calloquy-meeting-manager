@@ -15,6 +15,7 @@ import moment, { Moment } from 'moment';
 import '../shared/styles/styles.scss';
 import { getTypes, getCases, getParticipants } from '../shared/utils/api';
 import { Case, MeetingType, Participant } from '../shared/utils/types';
+// import { validateFields, buildParticipants, buildRequest } from '../shared/utils/functions';
 
 function MeetingsList() {
     const [meetingTypeList, setMeetingTypeList] = useState([]);
@@ -44,8 +45,17 @@ function MeetingsList() {
         setSelParticipants(typeof e.target.value === 'string' ? e.target.value.split(',') : e.target.value)
     }
 
+    // more information on the plan for these submit fields in shared/utils/functions!
     const submitForm = () => {
-        
+        // const validated = validateFields(selMeetingType, selCase, selParticipants);
+        // if (validated) {
+        //     const reqParticipants = buildParticipants(selParticipants);
+        //     const request = buildRequest(selMeetingType, selCase, reqParticipants);
+        //     submitForm(request).then((result) => {
+        //         // show success/error to user
+        //         // if success, clear out fields so user can submit another, add new meeting to meetings list
+        //     })
+        // }
     }
 
     return (
